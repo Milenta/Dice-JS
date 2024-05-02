@@ -8,9 +8,9 @@ const diceNumber = getRandomIntDice();
 console.log(typeof diceNumber);
 
 if (diceNumber === 6) {
-  document.getElementById("h1-el").innerText = `Congratulations you got 6.`;
+  document.getElementById("h3-el").innerText = `Congratulations you got 6.`;
 } else {
   document.getElementById(
-    "h1-el"
+    "h3-el"
   ).innerText = `Number you got is ${diceNumber}.`;
 }
